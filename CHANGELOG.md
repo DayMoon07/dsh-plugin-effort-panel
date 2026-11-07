@@ -4,6 +4,11 @@
 
 下表把开发期的迭代按新规则重排，**括号里是当时的旧版本号**，方便和早期记录对照。
 
+## v0.4.7 — 2026-11-08
+
+- **修复 token 统计严重偏小**：DSH 的 	okenUsage 字段是 uncachedInputTokens / cacheReadTokens / cacheWriteTokens / outputTokens，旧代码读的是并不存在的 inputTokens，导致只累加了输出 tokens（约为真实值的十分之一）
+- 统计改为四项相加，鼠标悬停可看「输入 / 缓存读 / 缓存写 / 输出」明细
+- 数值仍然只覆盖**当前会话**（DSH 的 	okenUsage 按会话的 durable log 累计），跨对话的总量不在这个字段里
 ## v0.4.6 — 2026-11-06
 
 - **粒子加密**：小颗粒从 6 层增加到 10 层，慢速光斑从 2 层增加到 3 层，单位面积内的亮点数量约提升一倍

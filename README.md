@@ -31,10 +31,10 @@ DeepSeek Harness **0.2.1-rc.2 ~ 0.2.2** 的 Desktop 或 Web profile：
 
 ```powershell
 # 桌面端
-dsh plugin --profile desktop add github:DayMoon07/dsh-plugin-effort-panel#v0.4.6
+dsh plugin --profile desktop add github:DayMoon07/dsh-plugin-effort-panel#v0.4.7
 
 # 浏览器版
-dsh plugin --profile web add github:DayMoon07/dsh-plugin-effort-panel#v0.4.6
+dsh plugin --profile web add github:DayMoon07/dsh-plugin-effort-panel#v0.4.7
 ```
 
 也可以直接装本地打好的包：
