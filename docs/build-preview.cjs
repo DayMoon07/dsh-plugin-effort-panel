@@ -52,7 +52,7 @@ ${dark ? "" : `body{background:radial-gradient(120% 90% at 20% 0%,#d8c8f0 0%,#ee
 ${css}
 .dep-panel{position:static !important;width:308px;animation:none !important;}
 </style></head><body><div class="stage">
-<div class="composer"><button type="button" class="dep-seat"><span class="dep-seat-model">deepseek-flash</span><span class="dep-seat-effort">高</span>${chevron}</button></div>
+<div class="composer"><button type="button" class="dep-seat"><span class="dep-seat-model">deepseek-flash</span><span class="dep-seat-effort">High</span>${chevron}</button></div>
 <div class="dep-panel" role="dialog">
   <div class="dep-head"><span class="dep-head-title">模型</span></div>
   <div class="dep-models">
@@ -62,14 +62,14 @@ ${css}
    ${row("deepseek-chat", false)}
   </div>
   <div class="dep-effort">
-    <div class="dep-effort-head"><span class="dep-effort-label">思考强度</span><span class="dep-effort-value">高</span></div>
-    <div class="dep-slider" role="slider" aria-valuemin="0" aria-valuemax="3" aria-valuenow="2" aria-valuetext="高">
+    <div class="dep-effort-head"><span class="dep-effort-label">思考强度</span><span class="dep-effort-value">High</span></div>
+    <div class="dep-slider" role="slider" aria-valuemin="0" aria-valuemax="3" aria-valuenow="2" aria-valuetext="High">
       <div class="dep-rail">
-        <div class="dep-track"><div class="dep-fill" style="width:calc(82% - 3px)"><div class="dep-spark dep-spark-slow"></div><div class="dep-spark"></div></div></div>
-        <div class="dep-thumb" style="left:clamp(14px, 82%, calc(100% - 14px))"></div>
+        <div class="dep-track"><div class="dep-fill" style="width:calc(66.67% - 3px)"><div class="dep-spark dep-spark-slow"></div><div class="dep-spark"></div></div></div>
+        <div class="dep-thumb" style="left:clamp(14px, 66.67%, calc(100% - 14px))"></div>
       </div>
     </div>
-    <div class="dep-stops"><span>最低</span><span>低</span><span data-active="true">中</span><span>高</span></div>
+    <div class="dep-stops"><span>Off</span><span>Low</span><span data-active="true">High</span><span>Max</span></div>
   </div>
   <div class="dep-stats">
     <div class="dep-stat"><span class="dep-stat-k">本会话</span><span class="dep-stat-v">12.6k tokens</span></div>
